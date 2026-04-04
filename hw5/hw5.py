@@ -1,4 +1,5 @@
-5import json
+import json
+import os
 
 
 def meanReversionStrategy(prices):
@@ -102,12 +103,19 @@ def saveResults(results):
 
 
 def loadPrices(filename):
-    """
-    Reads stock prices from a text file and returns them as a list of floats.
-    """
-    with open(filename, "r") as file:
+    import os
+
+    script_folder = os.path.dirname(os.path.abspath(__file__))
+    full_path = os.path.join(script_folder, filename)
+
+    with open(full_path, "r") as file:
         lines = file.readlines()
-        prices = [round(float(line.strip()), 2) for line in lines]
+        prices = [
+            round(float(line.strip().replace("$", "").replace(",", "")), 2)
+            for line in lines
+            if line.strip() != ""
+        ]
+
     return prices
 
 
