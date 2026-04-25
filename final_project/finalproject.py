@@ -142,20 +142,18 @@ def save_to_csv(weather_list):
 
 def read_todays_data():
     """
-    Reads the CSV file and returns only the rows from today's date.
-    This ensures our analysis is always based on the most recent data.
+    Reads the CSV file and returns only the most recent 10 rows.
+    This ensures analysis is always based on the latest fetch only.
     """
-    today = datetime.now().strftime("%Y-%m-%d")
-    todays_rows = []
+    all_rows = []
 
     with open(DATA_FILE, "r") as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
-            if row["date"] == today:
-                todays_rows.append(row)
+            all_rows.append(row)
 
-    return todays_rows
-
+    # Return only the last 10 rows (most recent run)
+    return all_rows[-10:]
 
 # =============================================================================
 # STEP 4: ANALYZE THE DATA
