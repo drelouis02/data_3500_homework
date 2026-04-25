@@ -1,0 +1,11 @@
+city,date,time,temp_f,feels_like_f,temp_min_f,temp_max_f,humidity_pct,wind_speed_mph,description
+Salt Lake City,2026-04-25,12:44:28,57.47,54.28,54.72,61.05,29,1.99,broken clouds
+St. George,2026-04-25,12:44:29,73.11,70.88,70.39,75.42,16,4.61,clear sky
+Provo,2026-04-25,12:44:29,56.59,53.6,53.38,58.8,35,3.11,few clouds
+Ogden,2026-04-25,12:44:30,53.76,50.2,52.32,56.5,29,8.01,broken clouds
+Cedar City,2026-04-25,12:44:30,56.08,52.84,54.57,59.4,31,8.05,clear sky
+Moab,2026-04-25,12:44:31,69.49,66.79,68.05,69.49,14,17.02,overcast clouds
+Logan,2026-04-25,12:44:31,48.81,46.81,45.91,50.25,47,5.01,broken clouds
+Park City,2026-04-25,12:44:32,57.78,56.44,52.93,62.49,68,7,few clouds
+Vernal,2026-04-25,12:44:32,55.11,51.55,55.11,59.65,26,5.01,clear sky
+Richfield,2026-04-25,12:44:33,55.35,53.17,53.31,57.54,55,4.61,light rain

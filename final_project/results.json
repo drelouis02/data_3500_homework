@@ -1,0 +1,101 @@
+{
+    "analysis_date": "2026-04-25",
+    "analysis_time": "12:44:33",
+    "cities_analyzed": 10,
+    "hottest_city": {
+        "city": "St. George",
+        "temp_f": 73.11,
+        "description": "clear sky"
+    },
+    "coldest_city": {
+        "city": "Logan",
+        "temp_f": 48.81,
+        "description": "broken clouds"
+    },
+    "windiest_city": {
+        "city": "Moab",
+        "wind_speed_mph": 17.02,
+        "description": "overcast clouds"
+    },
+    "most_humid_city": {
+        "city": "Park City",
+        "humidity_pct": 68.0,
+        "description": "few clouds"
+    },
+    "averages": {
+        "avg_temp_f": 58.35,
+        "avg_humidity_pct": 35.0
+    },
+    "all_cities": [
+        {
+            "city": "Salt Lake City",
+            "temp_f": 57.47,
+            "humidity_pct": 29.0,
+            "wind_speed_mph": 1.99,
+            "description": "broken clouds"
+        },
+        {
+            "city": "St. George",
+            "temp_f": 73.11,
+            "humidity_pct": 16.0,
+            "wind_speed_mph": 4.61,
+            "description": "clear sky"
+        },
+        {
+            "city": "Provo",
+            "temp_f": 56.59,
+            "humidity_pct": 35.0,
+            "wind_speed_mph": 3.11,
+            "description": "few clouds"
+        },
+        {
+            "city": "Ogden",
+            "temp_f": 53.76,
+            "humidity_pct": 29.0,
+            "wind_speed_mph": 8.01,
+            "description": "broken clouds"
+        },
+        {
+            "city": "Cedar City",
+            "temp_f": 56.08,
+            "humidity_pct": 31.0,
+            "wind_speed_mph": 8.05,
+            "description": "clear sky"
+        },
+        {
+            "city": "Moab",
+            "temp_f": 69.49,
+            "humidity_pct": 14.0,
+            "wind_speed_mph": 17.02,
+            "description": "overcast clouds"
+        },
+        {
+            "city": "Logan",
+            "temp_f": 48.81,
+            "humidity_pct": 47.0,
+            "wind_speed_mph": 5.01,
+            "description": "broken clouds"
+        },
+        {
+            "city": "Park City",
+            "temp_f": 57.78,
+            "humidity_pct": 68.0,
+            "wind_speed_mph": 7.0,
+            "description": "few clouds"
+        },
+        {
+            "city": "Vernal",
+            "temp_f": 55.11,
+            "humidity_pct": 26.0,
+            "wind_speed_mph": 5.01,
+            "description": "clear sky"
+        },
+        {
+            "city": "Richfield",
+            "temp_f": 55.35,
+            "humidity_pct": 55.0,
+            "wind_speed_mph": 4.61,
+            "description": "light rain"
+        }
+    ]
+}
